@@ -1,0 +1,887 @@
+* {
+    /* Umumiy buyuruq uchun*/
+    margin: 0;
+    /* -----Ortiqcha marginlarni olib tashlash uchun----- */
+    padding: 0;
+    /*------Ortiqcha paddinglarni olib tashlash uchun------- */
+    box-sizing: border-box !important;
+    /* ---Padding berganda box hajmi o'zgarmasligi uchun--- */
+    text-decoration: none !important;
+    /* ---A tegi tagidagi chiziqni olish uchun--- */
+    list-style: none !important;
+    /*-- Ul-li dagi nuqtachani olish uchun---  */
+
+}
+
+:root {
+
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+}
+
+/* ==Cols== */
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+
+
+/* .col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+ */
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* ----------Nav   started--------------- */
+nav {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, .76);
+}
+
+nav .col-12 {
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+header .carousel-inner {
+    position: relative;
+}
+
+nav .nav {
+    height: 77px;
+    align-items: center;
+
+}
+
+nav .nav li {
+    width: 87px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .nav a {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .nav .active {
+    border-bottom: 6px solid #e9696a;
+    padding-bottom: 0;
+}
+
+/* nav .after {
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 87px;
+    height: 6px;
+    background: #e9696a;
+} */
+
+
+/* nav .nav .nav-item .active::after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 6px;
+    background: #e9696a;
+    margin-top: 71px;
+
+} */
+
+
+nav .logo .flow {
+    margin-right: 15px;
+}
+
+
+
+
+/* <!-- -----------------header started----------------------- --> */
+
+header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+
+    font-weight: 300;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 40px;
+    width: 440px;
+    text-align: start;
+    transition: 0.5s;
+}
+
+
+header .carousel .carousel-inner .carousel-item .carousel-caption h1 span {
+    font-weight: 700;
+    color: #f06d6e;
+
+
+}
+
+header .carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 180px;
+
+    text-align: start;
+}
+
+header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    width: 350px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3d3d39;
+    line-height: 28px;
+    margin-bottom: 49px;
+    transition: 0.5s;
+}
+
+header .carousel-caption button {
+
+    border: 1.5px solid #fac81b;
+    border-left: 4px solid #fac81b;
+    color: #3d3d39;
+    background: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+header .carousel-caption button:hover {
+    background: #fac81b;
+    color: #f06d6e;
+
+    opacity: 0.9;
+    font-weight: 500;
+
+}
+
+header .carousel-indicators {
+    max-width: 1110px;
+    margin: 0;
+    bottom: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+
+}
+
+header .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: none;
+    border: 2px solid #7b7774 !important;
+    background: none;
+
+}
+
+header .carousel-indicators .active {
+
+    background: #6c6966;
+
+}
+
+
+
+/* ----------------SECtion----- in --------header-------------------------- */
+
+header .box {
+    width: 88px;
+    height: 7px;
+    background: #e99337;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+header .box .item {
+    width: 86px;
+    height: 6px;
+    background: #ecba0b;
+}
+
+header section {
+    background: #e66768;
+    width: 100%;
+    height: 712px;
+}
+
+
+header section .flex-column {
+    transition: 0.5s;
+}
+
+header section .col-4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+    margin-top: 68px;
+}
+
+
+
+header section h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #ecba0b;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 78px;
+
+}
+
+header section h1 span {
+    font-weight: 700;
+}
+
+
+header section .circle {
+    width: 166px;
+    height: 166px;
+    border-radius: 166px;
+    margin: auto;
+    background: #dd5e5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #dd5e5f;
+    transition: 0.5s;
+}
+
+header section .circle:hover {
+    border: 2px solid #fac81b;
+}
+
+header section .circle:hover .fa {
+    color: #fac81b;
+}
+
+header section .card {
+    background: none;
+    border: none;
+}
+
+header section .circle .fa {
+    color: white;
+    font-size: 65px;
+    transition: 0.5s;
+}
+
+header section .card-body {
+    padding: 0;
+}
+
+header section h5 {
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+header section h5:hover {
+    color: #fac81b;
+}
+
+header section p {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+
+header .section_button {
+    border: 1.5px solid #fac81b;
+    border-left: 4px solid #fac81b;
+    color: white;
+    background: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s;
+    margin: auto;
+
+}
+
+header .section_button:hover {
+    background: #fac81b;
+    color: #f06d6e;
+
+    opacity: 0.9;
+    font-weight: 500;
+
+
+}
+
+/* header .section_button:focus {
+    border: none;
+} */
+
+/* ==============================  MAin  ==========starting===================================== */
+
+
+
+main {
+    background: #f6f1ed;
+    width: 100%;
+    height: 783px;
+    transition: 0.5s;
+
+}
+
+main .row {
+    transition: 0.5s;
+}
+
+main .box {
+    width: 88px;
+    height: 7px;
+    background: #f1d475;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+main .box .item {
+    width: 86px;
+    height: 6px;
+    background: #ecba0b;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ecba0b;
+    margin-top: 71px;
+    margin-bottom: 76px;
+}
+
+main h1 span {
+    font-weight: 700;
+}
+
+
+main .dishes {
+    max-width: 1600px;
+    height: 494px;
+    margin: auto;
+    margin-bottom: 81px;
+    display: flex;
+}
+
+main .dishes .img {
+    width: 400;
+    height: 247px;
+    position: relative;
+}
+
+main .mask {
+    width: 100%;
+    height: 100%;
+    padding: 96px 84px 30px 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(230, 103, 104, .6);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+main .mask:hover {
+    opacity: 1;
+}
+
+main .mask h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+main .mask p {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+main .mask .quadrangle {
+    width: 33px;
+    height: 30px;
+    border: 1px solid #fac81b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+
+main .mask .quadrangle .fa {
+
+    color: #fac81b;
+    font-size: 13px;
+}
+
+
+/* ==================SEction=====in main=========================== */
+
+
+.main_section .row {
+    margin-bottom: 90px;
+}
+
+.main_section h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #fac81b;
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 74px;
+}
+
+.main_section h1 span {
+    font-weight: 700;
+}
+
+.main_section .box {
+    width: 88px;
+    height: 7px;
+    background: #fbf1ce;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.main_section .box .item {
+    width: 86px;
+    height: 6px;
+    background: #ecba0b;
+}
+
+.main_section .carding p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e66768;
+
+    margin-bottom: 14px !important;
+}
+
+.main_section .carding h5 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #646464;
+    text-align: center;
+    margin: 0;
+
+}
+
+.main_section .img {
+    width: 100%;
+
+    position: relative;
+    align-items: center;
+    margin-bottom: 66px;
+
+}
+
+.main_section .img .main_img {
+    width: 100%;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+}
+
+
+.main_section .img img:last-of-type {
+    position: absolute;
+    top: 169px;
+    transition: 0.5s;
+
+
+}
+
+
+/*  <!-- =================== =            Map      = ============================== --> */
+
+.map {
+    width: 100%;
+    height: 706px;
+    position: relative;
+    overflow: hidden;
+}
+
+.map:hover.map .contact_us {
+    transform: translateY(0px);
+}
+
+.map .contact_us {
+    position: absolute;
+    top: 181px;
+    width: 562px;
+    height: 525px;
+    background: #e66768;
+    transform: translateY(525px);
+    transition: .8s;
+}
+
+.map .contact_us h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #ebb016;
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+
+.map .contact_us p {
+    font-size: 13px;
+    font-weight: 40;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.map .contact_us .wall {
+    width: 461px;
+    margin-top: 38px;
+    margin-bottom: 18px;
+}
+
+.map .contact_us a:first-of-type {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.map .contact_us a:last-of-type {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+/* ===============Form========starting================== */
+
+.map .contact_us input[ type="name"] {
+    width: 222px;
+    height: 45px;
+    border: 1px solid #f5c2c3;
+    background: none;
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+}
+
+.map .contact_us input[ type="email"] {
+    width: 222px;
+    height: 45px;
+    border: 1px solid #f5c2c3;
+    background: none;
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+}
+
+.map .contact_us textarea {
+    width: 461px;
+    height: 125px;
+    margin-bottom: 29px;
+    border: 1px solid #f5c2c3;
+    background: none;
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+}
+
+.map .contact_us input::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+}
+
+.map .contact_us textarea::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+
+}
+
+input[type=name]:focus {
+    border-color: darkorchid;
+    box-shadow: 0 0 8px 0 rgb(233, 197, 39);
+
+    color: #f5c2c3;
+}
+
+input[type=email]:focus {
+    border-color: darkorchid;
+    box-shadow: 0 0 8px 0 rgb(233, 197, 39);
+
+    color: #f5c2c3;
+}
+
+textarea:focus {
+    border-color: darkorchid;
+    box-shadow: 0 0 8px 0 rgb(233, 197, 39);
+
+    color: #f5c2c3;
+}
+
+
+
+
+.map .contact_us .box {
+    width: 88px;
+    height: 7px;
+    background: #ebb016;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.map .contact_us .box .item {
+    width: 86px;
+    height: 6px;
+    background: #ecba0b;
+}
+
+
+/* <!-- ===================  Footer  ========================= --> */
+
+footer {
+    background: #3d3d3d;
+    position: relative;
+    height: 101px;
+
+}
+
+footer ul {
+    margin: 13px 0 13px 0;
+}
+
+footer .footer_nav {}
+
+footer .footer_nav .quadrangle {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #fac81b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 33px;
+    right: 80px;
+    background: #3d3d3d;
+
+
+}
+
+
+footer .footer_nav .quadrangle .fa {
+
+    color: #fac81b;
+    font-size: 18px;
+}
+
+footer .footer_nav ul a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #b1b1b1;
+    margin-right: 44px;
+
+
+
+}
+
+footer .footer_bottom {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #4c4c4c;
+}
+
+footer .footer_bottom a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #b1b1b1;
+}
+
+
+
+/* =======================   Media   ======================== */
+
+
+
+@media (max-width:1599px) {
+    .w_img_row {
+        margin: auto !important;
+        max-width: 800px !important;
+        max-height: 988px !important;
+
+    }
+
+    .h_main {
+        height: 1276px !important;
+    }
+
+
+}
+
+
+@media (max-width:1199px) {
+
+    .positin_main_img {
+        top: 126px !important;
+    }
+
+
+    .main_section .carding h5 {
+        font-size: 18px;
+    }
+
+
+    .height_ {
+        height: 1112px !important;
+
+    }
+
+
+    .cardings {
+        margin-bottom: 30px;
+    }
+
+    header section p {
+        width: 260px;
+    }
+
+
+
+    header .carousel .carousel-inner .carousel-item .carousel-caption {
+        top: 110px;
+
+    }
+
+    nav {
+        position: absolute;
+        top: 13px;
+       
+        
+    }
+
+    header .carousel .carousel-inner .carousel-item .carousel-caption p {
+        width: 250px;
+       
+        font-size: 11px;
+      
+    }
+
+    header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-weight: 400;
+        font-size: 23px;
+    }
+
+    nav .nav {
+        height: 57px;
+       
+    }
+    nav .nav li {
+        width: 70px;
+        margin: 0 !important;
+    }
+    nav .nav a {
+        padding: 0 !important;
+
+    }
+    nav .nav .active {
+        
+        padding-top: 6px ! important;
+    }
+
+    section .bordering{
+        border-bottom: 1px solid #b1b1b1 ;
+    }
+    
+}
+
+
+
+@media (max-width: 991px){
+.height_ {
+    height: 2080px !important;
+}
+.positin_main_img {
+    top: 79px ! important;
+}
+
+}
